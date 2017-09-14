@@ -5,7 +5,7 @@ Smoke Tests require server running on port 8080 by default.
 ## Build WAR ignoring Smoke Tests
 
 ```
-$ mvn clean package -DskipTests -Dmaven.test.skip=true
+$ mvn clean package -DskipTests -D "maven.test.skip=true"
 ```
 
 ## Run Smoke Tests against specific URL
